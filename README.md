@@ -27,22 +27,39 @@ Installation instructions for Windows or Linux:
 Flags:
 
 --vis
+
         Make a visualizer widow
+        
 --record <file>
+
         Record video output
+        
 ---matrix
+
         Display decoded plates on 8x8x4 LED matrix
+        
 ---out
+
         Print results to console
+        
 --fps
+
         Display FPS on console
+        
 --play <file>
+
         Use video file as input
+        
 --conf <conf>
+
         Confidence percent under which results are ignored, int between 0 and 100
+        
 --recnn <json>
+
          Use custom recognition model. Requires json file
+         
 --detnn <json>
+
          Use custom detection model. Requires json file
 
 
