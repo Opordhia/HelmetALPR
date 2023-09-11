@@ -25,7 +25,7 @@ Installation instructions for Windows or Linux:
 * Optional: install Luma.led-matrix
 
 Flags:
-
+`code`
 --vis
 
         Make a visualizer widow
