@@ -1,0 +1,59 @@
+{
+    "model": {
+		"blob":	"plates.blob"
+    },
+    "nn_config": {
+        "output_format": "detection",
+        "NN_family": "YOLO",
+        "input_size": "256x256",
+        "NN_specific_metadata": {
+            "classes": 1,
+            "coordinates": 4,
+            "anchors": [
+                3.599609375,
+                2.73046875,
+                7.38671875,
+                5.3671875,
+                15.2578125,
+                10.015625,
+                24.984375,
+                13.796875,
+                33.09375,
+                16.921875,
+                39.59375,
+                22.53125,
+                89.625,
+                45.59375,
+                161.125,
+                80.375,
+                193.0,
+                120.625
+            ],
+            "anchor_masks": {
+                "side32": [
+                    0,
+                    1,
+                    2
+                ],
+                "side16": [
+                    3,
+                    4,
+                    5
+                ],
+                "side8": [
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "iou_threshold": 0.8,
+            "confidence_threshold": 0.5
+        }
+    },
+    "mappings": {
+        "labels": [
+            "License Plate"
+        ]
+    },
+    "version": 1
+}
