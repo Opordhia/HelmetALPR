@@ -1,0 +1,33 @@
+{
+    "model": {
+        "blob": "best.blob"
+    },
+"nn_config": {
+        "output_format": "detection",
+        "NN_family": "YOLO",
+        "input_size": "",
+        "NN_specific_metadata": {
+            "classes": ,
+            "coordinates": ,
+            "anchors": [
+            ],
+            "anchor_masks": {
+                "side40": [
+                ],
+                "side20": [
+                ],
+                "side10": [
+                ],
+                "side5": [
+                ]
+            },
+            "iou_threshold": ,
+            "confidence_threshold":
+        }
+    },
+    "mappings": {
+        "labels": [
+        ]
+    },
+    "version": 1
+}
