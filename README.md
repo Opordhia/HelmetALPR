@@ -7,6 +7,10 @@ It is also possible to plug in a matrix LED display (set of 8x8 panels) to a ras
 
 A Yolov5n object detection model is used for both the plate detection and recognition. The weights used are specific to USA license plates, and are most useful for modern Pennsylvania passenger base plates since the majority of training images came from my own helmet cam videos.
 
+Demonstration:
+
+* https://www.youtube.com/watch?v=WrDLpo8xfEs
+
 Required:
 
 A DepthAI capable device with a color camera. They start at less than $100. Get a fixed focus model.
